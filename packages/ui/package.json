@@ -6,11 +6,11 @@
     "./postcss.config": "./postcss.config.mjs",
     "./components/*": "./src/components/*.tsx",
     "./lib/*": "./src/lib/*.ts",
-    "./styles/*": "./src/styles/*",
     "./hooks/*": [
       "./src/hooks/*.ts",
       "./src/hooks/*.tsx"
-    ]
+    ],
+    "./globals.css": "./globals.css"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
