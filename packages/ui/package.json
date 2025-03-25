@@ -10,7 +10,7 @@
       "./src/hooks/*.ts",
       "./src/hooks/*.tsx"
     ],
-    "./globals.css": "./globals.css"
+    "./globals.css": "./src/globals.css"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
