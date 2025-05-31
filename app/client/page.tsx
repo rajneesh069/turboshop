@@ -1,3 +1,5 @@
-export default function ClientLanding() {
-  return <div>Home</div>;
+import { ClientLanding } from "@/components/client/landing";
+
+export default function ClientHome() {
+  return <ClientLanding />;
 }
